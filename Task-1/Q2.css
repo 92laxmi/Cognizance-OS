@@ -1,0 +1,155 @@
+* {
+    margin: auto;
+    padding: auto;
+
+
+}
+
+
+body {
+    background-image: url('pp.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    opacity: 1;
+
+
+}
+
+
+header {
+    font-family: 'Roboto Condensed', sans-serif;
+    width: 50vw;
+    height: 50vh;
+
+
+}
+
+h3 {
+    padding: auto;
+    margin: auto;
+    color: rgb(242, 236, 55);
+}
+
+nav {
+    color: white;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+
+
+
+nav .menu {
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav .menu a {
+
+    text-decoration: none;
+    /* font-weight: bold; */
+
+}
+
+/* pseudo class */
+nav .menu a:first-child {
+    color: crimson;
+}
+
+.hover:hover {
+    color: white;
+    transform: scale(1, 1.2);
+
+}
+
+
+#Home {
+    padding-top: 2px;
+    text-align: center;
+    display: inline-block;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    font-weight: bold;
+}
+
+
+
+
+#About {
+    text-align: center;
+    display: inline-block;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+
+}
+
+#Project {
+
+    text-align: center;
+    display: inline-block;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+
+}
+
+#Service {
+    text-align: center;
+    display: inline-block;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+
+}
+
+#Contact {
+
+    text-align: center;
+    display: inline-block;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+
+}
+
+.div1 {
+
+    padding: 12px 10px;
+    background-color: rgb(46, 139, 46);
+    border-radius: 0px 0px 50px 50px;
+    border: 1px solid black;
+    width: 800px;
+    height: 1000px;
+
+
+
+}
+
+
+p {
+    color: black;
+    text-emphasis: none;
+    font-size: 20px;
+}
+
+.button {
+    background-color: rgb(100, 100, 247);
+    color: white;
+    border: 0ch;
+    border-radius: 3px;
+
+
+}
